@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/matereals.css">
+    <link rel="stylesheet" href="/css/materealsclass.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/media_materials.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Живые обои - Lillie Aether</title>
+
+
+
+</head>
+
+<body style="background-color: #14171a;">
+
+
+
+
+    <?php require('../MobileSiteBar.php') ?>
+
+
+
+
+
+
+
+
+    <div id="wrapper" style="background-color: #14171a; transition: 0.3s;">
+
+
+
+
+
+
+
+            <?php require('../header.php') ?>
+
+
+
+
+
+
+
+
+        <div class="container-fluide" id="content_materials">
+
+            <div class="row" id="mediacontent">
+
+                <div id="content" class="col-f">
+                    <div class="inner">
+
+                        <div class="PosterMaterials" style="background-image: url(/main/posters/poster12.gif);">
+                            <div class="title">
+                                <h1>Живые обои - Lillie Aether</h1>
+                            </div>
+                            <div class="meta">
+                                <span class="pubdate">12.02.2020</span>
+                                <a class="categories" href="/categories/pictures.php" class="categories"><img
+                                        src="/main/photoshop2.svg" alt="">Изображения</a>
+                            </div>
+                            <div id="action">
+                                <ul class="list">
+                                    <li style="padding-left: 10px;"><a class="ActionList" href="#descript"><img
+                                                class="ActionListImg" src="/main/desc.png" alt="">ОПИСАНИЕ</a></li>
+
+                                    <li class="dow"><a class="ActionListNone" href="#download"><img
+                                                class="ActionListImg" src="/main/download2.png" alt="">СКАЧАТЬ</a>
+                                    </li>
+
+                                    <li><a class="ActionList" href="#comments"><img class="ActionListImg"
+                                                src="/main/com.png" alt="">КОММЕНТРИИ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div id="descript">
+                            <p>Милый аниме скин со светловолосой лолей, которая носит длинные волосы и пушистые ушки :)</p>
+                            <p>Как установить живые обои «Lillie Aether»?</p>
+                            
+                            <p>Скачайте и распакуйте архив pictures2.rar;</p>
+                            <p>Переместите его содержимое в папку программы, которая по-умолчанию имеет следующий адрес: C:\Program Files
+                            (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\1459996527. Но если Вы используете пиратку, путь может
+                            быть несколько иной.</p>
+                            <p>Примените обои в окне программы. Для этого выберите их в списке и нажмите синюю кнопку "ОК" (подробнее). Или добавьте их
+                            на лицензионную версию Wallpaper Engine, скачав оригинальную копию из библиотеки Steam Workshop.</p>
+                            
+                            <p>Архив содержит сцену, а потому анимированные обои рекомендуется использовать только с Wallpaper Engine, но Вы можете
+                            посмотреть и другие <a href="17.php">программы для установки</a>.</p>
+                        </div>
+
+                        <div id="download">
+                            <div class="header">
+                                <h2><img src="/main/download2.png" alt="">СКАЧАТЬ</h2>
+                            </div>
+                            <div class="dwrapper">
+                                <a href="/download/pictures2.rar" download>
+                                    <button class="download-start"><strong>СКАЧАТЬ</strong><small>С нашего сервера
+                                        </small></button></a>
+
+                            </div>
+                        </div>
+
+                        
+
+                        <?php require('../Comments.php') ?>
+
+                    </div>
+
+                </div>
+
+
+<?php require('../SiteBar.php') ?>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <?php require('../footer.php') ?>
+
+
+
+
+
+    </div>
+
+
+    
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

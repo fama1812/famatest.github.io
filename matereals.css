@@ -1,0 +1,100 @@
+aside{
+    margin-bottom: 15px;
+    display: table;
+}
+.poster{
+    vertical-align: top;
+    width: 372px;
+    background-color: #000;
+    min-height: 284px;
+    display: table-cell;
+}
+.meta{
+    margin: 15px 0px 15px 0px;
+}
+.poster img{
+    width: 372px;
+    display: table-cell;
+    border-radius: 5px 0px 0px 5px;
+}
+.details {
+    width: 563px;
+    background-color: #080C0F;
+    padding: 15px 22px;
+    display: table-cell;
+    border-radius: 0px 5px 5px 0px;
+}
+.details img{
+    width: 16px;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+.details h3 {
+    color: #fea431;
+    color: #ffc14e;
+    text-decoration: none;
+    display: inline-block;
+    opacity: 1;
+    -webkit-transition: .1s opacity;
+    -o-transition: .1s opacity;
+    transition: .1s opacity;
+    position: relative;
+    background: -webkit-gradient(linear,left top,right top,from(#fea431),to(#ff8a00));
+    background: -o-linear-gradient(left,#fea431,#ff8a00);
+    background: linear-gradient(to right,#fea431,#ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+}
+.details h3 {
+    display: inline-block;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 21px;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-weight: 600;
+}
+.details h3:hover {
+    background: -webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));
+    background: -o-linear-gradient(left,#ff8a00,#da1b60);
+    background: linear-gradient(to right,#ff8a00,#da1b60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+}
+.pubdate {
+    display: inline-block;
+    vertical-align: top;
+    color: #888;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-right: 19px;
+}
+.details .categories {
+    font-family: "Roboto Condensed",sans-serif;
+    color: #888;
+    text-decoration: none;
+    -webkit-transition: .2s color;
+    -o-transition: .2s color;
+    transition: .2s color;
+    font-size: 17px;
+}
+.details .categories:hover{
+    background-image: url(/main/bg8.gif);
+    color: #00bfff;
+    text-decoration: none;
+}
+.text{
+        display: inline-block;
+    vertical-align: top;
+    color: #888;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
